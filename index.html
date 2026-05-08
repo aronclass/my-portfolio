@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="header">
+        <div class="container">
+            <h1>Arnab Roy | CST Student</h1>
+            <h2>Aspiring Web Developer</h2>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h3>About Me</h3>
+            <div class="about-content">
+                <img src="profile.png" >
+                <div>
+                    <p>Hello! I am a Computer Science and Technology (CST) student. I have a strong passion for technology and web development. I love spending my time trying new things</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h3>My Skills</h3>
+            <ul class="skills-list">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript (Basics)</li>
+                <li>PHP (Learning)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h3>My Projects</h3>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h4>Calculator App</h4>
+                    <p>A simple, responsive calculator web application designed using HTML and basic CSS styling.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h4>Student Registration Form</h4>
+                    <p>A front-end form layout created to take student details. Future plan is to connect it with PHP.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h4>To-Do List</h4>
+                    <p>A basic to-do list layout to organize daily tasks and practice front-end structure.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h3>Contact Me</h3>
+            <form method="post" action="#">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Arnab Roy. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
